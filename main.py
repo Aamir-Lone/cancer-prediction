@@ -15,7 +15,7 @@ def main():
     df, categorical_columns = handle_missing_values(df)
     
     # Encode categorical columns (you'll need to specify which columns are categorical)
-    categorical_columns = ['column1', 'column2']  # replace with actual categorical columns
+    categorical_columns = ['column2']  
     df = encode_categorical_columns(df, categorical_columns)
 
     # Scale the features (if needed)
