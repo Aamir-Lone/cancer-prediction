@@ -46,6 +46,8 @@ def main():
     evaluate_model(rf_model, X_test, y_test)
     save_model(rf_model, 'rf_model.pkl')
 
+
+
     # Train and evaluate XGBoost
     xgb_model = train_xgboost(X_train, y_train)
     evaluate_model(xgb_model, X_test, y_test)

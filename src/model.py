@@ -19,7 +19,7 @@ def train_random_forest(X_train, y_train):
     model.fit(X_train, y_train)
     return model
 
-# Support Vector Machine (SVM) Model
+# # Support Vector Machine (SVM) Model
 def train_svm(X_train, y_train):
     model = SVC(kernel='linear', random_state=42)
     model.fit(X_train, y_train)
